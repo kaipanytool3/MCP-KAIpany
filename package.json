@@ -20,7 +20,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "yarn clean && tsc && mv dist public",
     "dev": "ts-node src/index.ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "prepare": "yarn build",
