@@ -20,7 +20,7 @@ program
   .description('Start Feishu/Lark MCP Service')
   .option('-a, --app-id <appId>', 'Feishu/Lark App ID')
   .option('-s, --app-secret <appSecret>', 'Feishu/Lark App Secret')
-  .option('-d, --domain <domain>', 'Feishu/Lark Domain (default: "https://open.feishu.cn")')
+  .option('-d, --domain <domain>', 'Feishu/Lark Domain (default: "https://open.larksuite.com")')
   .option('-t, --tools <tools>', 'Allowed Tools List, separated by commas')
   .option('-c, --tool-name-case <toolNameCase>', 'Tool Name Case, snake or camel or kebab or dot (default: "snake")')
   .option('-l, --language <language>', 'Tools Language, zh or en (default: "en")')
